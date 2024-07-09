@@ -31,7 +31,7 @@ function Contact() {
             });
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log('FAILED...', error);
           toast('Failed senting your message!', {
             position: "top-right",
             autoClose: 5000,
