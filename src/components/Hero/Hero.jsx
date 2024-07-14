@@ -8,7 +8,7 @@ import githubLight from '../../assets/github-light.svg';
 import githubDark from '../../assets/github-dark.svg';
 import linkedinLight from '../../assets/linkedin-light.svg';
 import linkedinDark from '../../assets/linkedin-dark.svg';
-import CV from '../../assets/cv.pdf';
+import CV from '../../assets/jashira_cv.pdf';
 import { useTheme } from '../../common/ThemeContext';
 
 function Hero() {
@@ -53,7 +53,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-        I’m a passionate React / mern developer who loves creating modern web applications. Let’s build something awesome together! 🚀
+        I’m a passionate React/mern developer who loves creating modern web applications.Let’s build something awesome together! 🚀
         </p>
         <a href={CV} download>
           <button className="hover">Download Resume</button>
