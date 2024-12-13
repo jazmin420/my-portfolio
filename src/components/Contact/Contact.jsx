@@ -51,6 +51,7 @@ function Contact() {
     <>
       <section id="contact" className={styles.container}>
         <h1 className="sectionTitle">Contact</h1>
+        <p className='contact-p'>Get in touch with me!</p>
        <form ref={form} onSubmit={sendEmail}>
        <div className="formGroup">
           <label htmlFor="name" hidden>
